@@ -1,7 +1,7 @@
 //opdracht 1
 
 let course = document.getElementsByTagName('tr');
-let allGrades = []
+let allGrades = [];
 
 
 for(let i = 0; i < course.length; i++) {
@@ -35,7 +35,7 @@ console.log("----------------------------------------------------");
 //opdracht 2
 
 const li = document.getElementsByTagName('li');
-console.log(li.length)
+console.log(li.length);
 
     for(let i = 0; i < li.length; i++){
         if (i % 2 === 0 ) {
@@ -50,8 +50,8 @@ console.log("----------------------------------------------------");
 function createImageElement(imageSrcName) {
     const image = document.createElement('img');
     image.setAttribute('src', imageSrcName);
-    image.setAttribute('alt', 'random image from picsum.')
+    image.setAttribute('alt', 'random image from picsum.');
     body.appendChild(image);
 }
 
-createImageElement('https://picsum.photos/200/300/?random')
+createImageElement('https://picsum.photos/200/300/?random');
